@@ -11,4 +11,4 @@ function addElementToEndOfArray () {
   
 }
 
-function destruc
+function 
