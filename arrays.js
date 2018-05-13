@@ -4,43 +4,43 @@ function addElementToBeginningOfArray(array,element) {
   [element, ...array]
 }
 
-function destructivelyAddElementToBeginningOfArray() {
+function destructivelyAddElementToBeginningOfArray(array, element) {
   Array.unshift(element)
   return Array
 }
 
-function addElementToEndOfArray() {
+function addElementToEndOfArray(array, element) {
   var array = [...array,element]
 
   
 }
 
-function destructivelyAddElementToEndOfArray() {
+function destructivelyAddElementToEndOfArray(array, element) {
    array.push(element)
    return array
 }
 
-function accessElementInArray() {
+function accessElementInArray(array, element) {
   console.log(array[2])
   
 }
 
-function destructivelyRemoveElementFromBeginningOfArray() {
+function destructivelyRemoveElementFromBeginningOfArray(array, element) {
   array.shift();
   return array
 }
 
-function removeElementFromBeginningOfArray(){
+function removeElementFromBeginningOfArray(array, element){
   array = array.slice(1)
   return array
 }
 
-function destructivelyRemoveElementFromEndOfArray(){
+function destructivelyRemoveElementFromEndOfArray(array, element){
   array.pop()
   return array
 }
 
-function removeElementFromEndOfArray(){
+function removeElementFromEndOfArray(array, element){
   array.slice(0, array.lenth -1)
   return array
 }
