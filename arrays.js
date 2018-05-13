@@ -5,7 +5,7 @@ function addElementToBeginningOfArray () {
 }
 
 function destructivelyAddElementToBeginningOfArray() {
-  chocolateBars[1] = 'hershey'
+  chocolateBars['foo',1] = 'hershey'
 }
 
 function addElementToEndOfArray () {
